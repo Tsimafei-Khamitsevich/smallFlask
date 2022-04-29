@@ -1,0 +1,8 @@
+<form action="{{ url_for("search_swimmer")}}" method="post">
+    <label for="name_id">Swimmer name:</label>
+    <input type="text" id="name_id" name="name" value="{{ name }}"></input>
+    <input type="submit" name="submit_button" value="Search">
+    <input type="submit" name="submit_button" value="Add">
+    <h1>{{ summary }}</h1>
+</form>
+
